@@ -1,0 +1,37 @@
+/* Reset de Margen, Padding y Bordes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Elimina decoraciones en enlaces */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Fuentes heredadas */
+  body, button, input, textarea {
+    font-family: sans-serif;
+  }
+  
+  /* Asegura que las listas no tengan estilos de viñetas por defecto */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Oculta los bordes de imágenes */
+  img {
+    border: none;
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Normaliza tablas */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
